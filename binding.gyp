@@ -37,7 +37,7 @@
         ['OS=="win"', {
           'libraries': [
             '-l<(GTK_Root)/lib/cairo.lib',
-            '-l<(GTK_Root)/lib/libpng.lib'
+            '-l<(GTK_Root)/lib/libpng.dll.a'
           ],
           'include_dirs': [
             '<(GTK_Root)/include',
